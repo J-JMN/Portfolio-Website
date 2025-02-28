@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 1px solid #282626;
+}
+#main-header h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+#main-header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#main-header ul li {
+    display: inline;
+}
+#main-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+}
+#main-header ul li a:hover {
+    background-color: #282626;
+}
+#main-header ul li a.active {
+    background-color: #282626;
+}
+#main-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#main-content h2 {
+    margin-top: 0;
+}
+#main-content p {
+    margin-top: 0;
+}
+#main-content a {
+    text-decoration: none;
+    color: #333;
+}
+#main-content a:hover {
+    color: #282626;
+}
+#main-content .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+#main-content .btn:hover {
+    background-color: #282626;
+}
+#main-content .btn:active {
+    background-color: #282626;
+}
+#main-content .btn-primary {
+    background-color: #007bff;
+}
+#main-content .btn-primary:hover {
+    background-color: #0056b3;
+}
+#main-content .btn-primary:active {
+    background-color: #0056b3;
+}
+#main-content .btn-danger {
+    background-color: #dc3545;
+}
+#main-content .btn-danger:hover {
+    background-color: #c82333;
+}
+#main-content .btn-danger:active {
+    background-color: #c82333;
+}
+#main-content .btn-success {
+    background-color: #28a745;
+}
+#main-content .btn-success:hover {
+    background-color: #218838;
+}
+#main-content .btn-success:active {
+    background-color: #218838;
+}
+#main-content .btn-warning {
+    background-color: #ffc107;
+}  
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #282626;
+    margin: 20px auto;
+    display: block;
+}
+#main-header h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
