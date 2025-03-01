@@ -2,10 +2,19 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
     overflow-x: hidden;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 #container {
     width: 100%;
     margin: auto;
@@ -19,21 +28,21 @@ body {
     border-bottom: 1px solid #282626;
     text-align: center;
 }
-#main-header :hover {
-    background-color: #756e6e99;
-    color: white;
-    border-radius: 4%;
-    transition : ease-in-out 0.4s;
+
+#main-header h1:hover {
+    background-color: #353333;
+    border-radius: 10%;
 }
 #main-header h1 {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: 20px;
     padding-top: 10px;
-
+    color: #c5b1b1;
 }
+
 #main-header ul {
     margin: 0;
     padding: 0;
@@ -42,10 +51,12 @@ body {
     position: relative;
     justify-content: center;
 }
+
 #main-header ul li {
     display: inline;
     margin: 0 10px;
 }
+
 #main-header ul li a {
     color: #fff;
     text-decoration: none;
@@ -54,11 +65,13 @@ body {
     display: flex;
     margin: 3px;
 }
+
 #main-header ul li a:hover {
     background-color: #fff;
     color: black;
     border-radius: 48%;
 }
+
 #main-content {
     padding: 20px;
     margin-top: 0px;
@@ -66,34 +79,18 @@ body {
     background-color: #a79f9f;
     text-align: center;
 }
+
 #main-content h2 {
     margin-top: 30px;
     font-size: 32px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 #main-content p {
     margin-top: 0;
     font-size: 18px;
     text-align: center;
-}
-
-.profile-picture {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 3px solid #282626;
-    margin: 20px auto;
-    display: block;
-    object-fit: cover;
-}
-
-#nav {
-    background-color: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: 1px solid #282626;
 }
 
 #main-footer {
@@ -104,5 +101,57 @@ body {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: auto; /* Makes sure the footer stays at the bottom */
 }
+
+#main-footer p {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+/* Page transition styles */
+.page {
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.page-exit {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Image hover effect */
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #282626;
+    margin: 20px auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* On hover, make the image grow larger */
+.profile-picture:hover {
+    transform: scale(1.1) /* Increases the size by 10% */
+}
+
+@media (max-width: 768px) {
+    #main-header ul {
+        display: block;
+    }
+
+    #main-header ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #main-header ul li a {
+        display: block;
+        padding: 10px;
+    }
+}
+
+
+
 

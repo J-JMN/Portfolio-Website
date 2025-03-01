@@ -23,6 +23,7 @@ This website follows a structured HTML layout with semantic elements, linking to
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
+    <div class="page">
     <header id="main-header">
         <div id="container">
             <h1></h1>
@@ -36,7 +37,7 @@ This website follows a structured HTML layout with semantic elements, linking to
         </div>
     </header>
     <section id="main-content">
-        <div id="container">
+       <div id="container">
             <img>
             <h2></h2>
             <p></p>
@@ -54,4 +55,4 @@ This website follows a structured HTML layout with semantic elements, linking to
 
 ### Installation and Setup
 Clone the repository
-git clone https://github.com/J-JMN/Personal-Website.git
+git clone git@github.com:J-JMN/Portfolio-Website.git
