@@ -59,6 +59,12 @@ html, body {
     justify-content: center;
 }
 
+#main-header ul:hover {
+    background-color: #6b6767b9;
+    border-radius: 4px;
+    transition: ease-in-out 0.5s;
+}
+
 #main-header ul li {
     display: inline;
     margin: 0 10px;
@@ -74,9 +80,10 @@ html, body {
 }
 
 #main-header ul li a:hover {
-    background-color: #fff;
+    background-color: #ffffffc7;
     color: black;
-    border-radius: 48%;
+    border-radius: 46%;
+    transition: ease-in-out 0.3s;
 }
 
 #main-content {
