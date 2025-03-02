@@ -19,7 +19,7 @@ This website follows a structured HTML layout with semantic elements, linking to
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Web</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
@@ -46,7 +46,7 @@ This website follows a structured HTML layout with semantic elements, linking to
     </section>
     <footer id="main-footer">
         <div id="container">
-            <p>&copy; 2025 Personal Web</p>
+            <p>&copy; 2025 Personal Portfolio</p>
         </div>
     </footer>
     <script src="script.js"></script>
@@ -56,3 +56,7 @@ This website follows a structured HTML layout with semantic elements, linking to
 ### Installation and Setup
 Clone the repository
 git clone git@github.com:J-JMN/Portfolio-Website.git
+
+### Media Queries
+
+@media (max-width: 768px)
