@@ -7,9 +7,8 @@ Css
 JavaScript
 
 ## Features  
-Responsive design  
-Project showcase  
-Contact form 
+Responsive design    
+Communicate form 
 
 ### Basic HTML Structure  
 This website follows a structured HTML layout with semantic elements, linking to an external CSS and JavaScript file.

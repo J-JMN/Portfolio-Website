@@ -83,7 +83,7 @@ html, body {
     background-color: #ffffffc7;
     color: black;
     border-radius: 46%;
-    transition: ease-in-out 0.4s;
+    transition: background-color 0.4s ease-in-out;
 }
 
 #main-content {
@@ -149,6 +149,66 @@ html, body {
 
 .profile-picture:hover {
     transform: scale(1.1);
+}
+
+#greetings {
+    font-size: 24px;
+    margin-top: 5px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.386);
+    padding: 10px;
+    border-radius: 5px;
+    color: #000000;
+    margin: 20px;
+}
+
+#communicate {
+    font-size: 24px;
+    margin: 0;
+    display: block;
+}
+#greetings p {
+    margin: 4px;
+}
+
+#greetings input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #282626;
+    width: 200px;
+}
+
+#greetings:hover {
+    background-color: rgba(187, 158, 158, 0.731);
+    transition: background-color 0.3s ease-in-out;
+}
+
+#greetings button {
+    background-color: #4c4848;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+}
+.boo {
+    font-size: 24px;
+    margin-top: 20px;
+    display: block;
+}
+#confirmation-message {
+    font-size: 24px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #4c4848;
+    margin: 20px;
 }
 
 @media (max-width: 768px) {
